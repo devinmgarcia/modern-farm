@@ -23,10 +23,9 @@ export const createPlan = () => {
     is not relevant for you implementing your code
     for this project.
 */
-const crop = function* () {
+const crop = function*() {
     while (true) {
         const typeIdx = Math.floor(Math.random() * types.length)
         yield types[typeIdx]
     }
 }()
-
